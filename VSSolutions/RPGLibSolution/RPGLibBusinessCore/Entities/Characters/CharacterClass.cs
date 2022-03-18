@@ -15,10 +15,19 @@ namespace RPGLibBusinessCore.Entities.Characters
     /// ex : Blood Sorcerer can inherit from Sorcerer (and get Sorcerer abilities + blood)
     /// </remarks>
     public class CharacterClass
-    {
+    {     
+
         public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public List<Ability>? Abilities { get; set; }
+
+        public CharacterClass(int iD, string name, string description, List<Ability>? abilities)
+        {
+            ID = iD;
+            Name = name;
+            Description = description;
+            Abilities = abilities;
+        }
     }
 }
