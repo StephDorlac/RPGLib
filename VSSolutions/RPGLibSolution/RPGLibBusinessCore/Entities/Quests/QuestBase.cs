@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace RPGLibBusinessCore.Entities.Quests
 {
+    /// <summary>
+    /// QuestBase define the entity of a quest
+    /// </summary>
     public class QuestBase
     {
         public int Id { get; set; }

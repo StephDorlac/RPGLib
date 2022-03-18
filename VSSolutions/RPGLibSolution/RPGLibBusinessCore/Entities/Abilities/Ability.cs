@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace RPGLibBusinessCore.Entities.Abilities
 {
+    /// <summary>
+    /// Ability entity define an ability for a character (ex: walking, two hands fighting,...)
+    /// </summary>
     public class Ability
     {
         public int Id { get; set; }

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace RPGLibBusinessCore.Entities.Abilities
 {
+    /// <summary>
+    /// AbilityType is the entity to define a specific type of ability (ex : Movement)
+    /// </summary>
     public class AbilityType
     {
         public int Id { get; set; }

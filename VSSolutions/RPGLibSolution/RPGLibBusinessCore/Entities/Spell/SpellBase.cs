@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace RPGLibBusinessCore.Entities.Spell
 {
+    /// <summary>
+    /// SpellBase is used to define a Spell
+    /// Its action is defined by a ISpellAction to provide the implementation of action
+    /// </summary>
     public class SpellBase
     {  
 

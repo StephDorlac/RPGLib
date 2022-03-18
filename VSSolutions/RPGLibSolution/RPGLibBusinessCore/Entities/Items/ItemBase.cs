@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace RPGLibBusinessCore.Entities.Items
 {
+    /// <summary>
+    /// ItemBase entity define all specific items in world (ex: sword, legendary book, ...)
+    /// </summary>
     public class ItemBase
     {
         public int Id { get; set; }

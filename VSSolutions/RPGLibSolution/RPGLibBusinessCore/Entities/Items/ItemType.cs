@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace RPGLibBusinessCore.Entities.Items
 {
+    /// <summary>
+    /// ItemType entity define the type of an item (ex: furniture, food, weapon...) 
+    /// </summary>
     public class ItemType
     {
         public int Id { get; set; } 

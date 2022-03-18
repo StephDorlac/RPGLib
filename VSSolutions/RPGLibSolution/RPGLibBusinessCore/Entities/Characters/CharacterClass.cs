@@ -8,23 +8,17 @@ using System.Threading.Tasks;
 namespace RPGLibBusinessCore.Entities.Characters
 {
     /// <summary>
-    /// Species is the entity to define the species of characters (ex: humain, elve, ...)
+    /// CharacterClass is the entity to define a specific class for a character
     /// </summary>
-    public class Species
+    /// <remarks> 
+    /// A CharacterClass can inherit from CharacterClass to expose some complexity subsystem
+    /// ex : Blood Sorcerer can inherit from Sorcerer (and get Sorcerer abilities + blood)
+    /// </remarks>
+    public class CharacterClass
     {
-        public int Id { get; set; }
-
+        public int ID { get; set; }
         public string Name { get; set; }
-
         public string Description { get; set; }
-
         public List<Ability>? Abilities { get; set; }
-
-        public Species(int id, string name, string description)
-        {
-            Id = id;
-            Name = name;
-            Description = description;
-        }
     }
 }
