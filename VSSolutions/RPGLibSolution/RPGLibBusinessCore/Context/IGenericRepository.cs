@@ -8,7 +8,7 @@ namespace RPGLibBusinessCore.Context
 {
     public interface IGenericRepository<T> where T : class
     {
-        Task<T> GetByIdAsync(int id);
+        Task<T> GetByIdAsync(Guid id);
         Task<IReadOnlyList<T>> GetAllAsync();
         Task<CommonResult> AddAsync(T entity);
         Task<CommonResult> UpdateAsync(T entity);

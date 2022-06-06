@@ -6,6 +6,6 @@ namespace RPGLibBusinessCore.Context
 {
     public interface IConfiguration
     {
-        public string GetConnectionString(string connecionName);
+        public string GetConnectionString(string connectionString);
     }
 }

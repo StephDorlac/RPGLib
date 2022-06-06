@@ -32,7 +32,7 @@ namespace RPGLibBusinessCore.Context.Infra.SQLImpl
             throw new NotImplementedException();
         }
 
-        public Task<ItemBase> GetByIdAsync(int id)
+        public Task<ItemBase> GetByIdAsync(Guid id)
         {
             throw new NotImplementedException();
         }

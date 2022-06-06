@@ -74,19 +74,77 @@ namespace RPGLibBusinessCore.Context.Infra.SQLImpl
             return result;
         }
 
-        public Task<IReadOnlyList<ItemTypeBase>> GetAllAsync()
+        public async Task<IReadOnlyList<ItemTypeBase>> GetAllAsync()
         {
-            throw new NotImplementedException();
+            var sql = "SELECT Id,Name FROM ITEM_TYPE WITH(NOLOCK)";
+
+            try
+            {
+                using (var connection = new SqlConnection(_configuration.GetConnectionString("DapperConnection")))
+                {
+                    connection.Open();
+                    var resultSQL = await connection.QueryAsync<ItemTypeBase>(sql);
+                    return resultSQL.AsList<ItemTypeBase>();
+                }
+            }
+            catch (Exception ex)
+            {
+                //tODO LOG
+                throw ex;
+            }
         }
 
-        public Task<ItemTypeBase> GetByIdAsync(int id)
+        /// <summary>
+        /// GetByIdAsync
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public async Task<ItemTypeBase> GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            var sql = "SELECT Id, Name FROM ITEM_TYPE WITH(NOLOCK) WHERE Id=@Id";           
+
+            try
+            {
+                using (var connection = new SqlConnection(_configuration.GetConnectionString("DapperConnection")))
+                {
+                    connection.Open();
+                    var resultSQL = await connection.QuerySingleOrDefaultAsync<ItemTypeBase>(sql, new {Id=id });
+                    return resultSQL;
+                }                
+            }
+            catch (Exception ex)
+            {
+                //tODO LOG
+                throw ex;
+            }            
         }
 
-        public Task<CommonResult> UpdateAsync(ItemTypeBase entity)
+        /// <summary>
+        /// UpdateAsync
+        /// </summary>
+        /// <param name="entity"></param>
+        /// <returns></returns>
+        public async Task<CommonResult> UpdateAsync(ItemTypeBase entity)
         {
-            throw new NotImplementedException();
-        }
+            var sql = "UPDATE ITEM_TYPE (Name) VALUES (@Name) WHERE Id=@Id";
+            var result = new CommonResult() { Message = String.Empty, ResultStatus = CommonResult.ResultStatusAction.Pending };
+
+            try
+            {
+                using (var connection = new SqlConnection(_configuration.GetConnectionString("DapperConnection")))
+                {
+                    connection.Open();
+                    var resultSQL = await connection.ExecuteAsync(sql, entity);
+                }
+                result.ResultStatus = CommonResult.ResultStatusAction.Success;
+            }
+            catch (Exception ex)
+            {
+                result.Message = ex.ToString();
+                result.ResultStatus = CommonResult.ResultStatusAction.Failure;
+            }
+
+            return result;
+        }    
     }
 }

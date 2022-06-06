@@ -50,18 +50,20 @@
     </TypeIdentifier>
   </Class>
   <Class Name="RPGLibEntityCore.Entities.ItemBase">
-    <Position X="14" Y="0.5" Width="1.5" />
+    <Position X="11.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Items\ItemBase.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
-  <Class Name="RPGLibEntityCore.Entities.ItemType">
-    <Position X="15.75" Y="0.5" Width="1.5" />
+  <Class Name="RPGLibEntityCore.Entities.ItemTypeBase">
+    <Position X="13.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Items\ItemType.cs</FileName>
+      <FileName>Items\ItemTypeBase.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="RPGLibEntityCore.Entities.QuestBase">
     <Position X="0.5" Y="3.75" Width="1.5" />
@@ -78,30 +80,31 @@
     </TypeIdentifier>
   </Class>
   <Class Name="RPGLibEntityCore.Entities.SpellBase">
-    <Position X="4.75" Y="3.75" Width="1.5" />
+    <Position X="4.25" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
       <FileName>Spell\SpellBase.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGLibEntityCore.Entities.StatisticBase">
-    <Position X="9.25" Y="3.75" Width="1.5" />
+    <Position X="7.75" Y="3.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>QAACAAAAABAgAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Statistics\StatisticBase.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="RPGLibEntityCore.Entities.DiceBase">
-    <Position X="11.75" Y="3.75" Width="1.5" />
+    <Position X="9.5" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>QAAAAAAAAAAggAgAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <HashCode>QAACAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
       <FileName>Tools\DiceBase.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Interface Name="RPGLibEntityCore.Entities.ISpellAction">
-    <Position X="6.5" Y="3.75" Width="1.5" />
+    <Position X="6" Y="3.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAABAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAABAAA=</HashCode>
       <FileName>Spell\ISpellAction.cs</FileName>
     </TypeIdentifier>
   </Interface>
