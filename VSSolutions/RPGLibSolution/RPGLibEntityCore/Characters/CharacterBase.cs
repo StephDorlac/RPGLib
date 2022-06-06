@@ -1,12 +1,11 @@
-﻿using RPGLibBusinessCore.Entities.Abilities;
-using RPGLibBusinessCore.Entities.Statistics;
+﻿using RPGLibEntityCore.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPGLibBusinessCore.Entities.Characters
+namespace RPGLibEntityCore.Entities
 {
     /// <summary>
     /// CharacterBase is the entity to define character    

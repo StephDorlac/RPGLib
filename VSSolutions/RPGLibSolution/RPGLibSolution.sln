@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32210.238
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGLibBusinessCore", "RPGLibBusinessCore\RPGLibBusinessCore.csproj", "{5FF9836E-60FD-4C2C-B389-010A4614EEF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGLibBusinessCore", "RPGLibBusiness\RPGLibBusinessCore.csproj", "{6937AEF7-6F0E-4CAE-9CF3-26F7E1074811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RPGLibEntityCore", "RPGLibEntityCore\RPGLibEntityCore.csproj", "{A883EF38-6B19-445F-BDBE-2ECE50D21D91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5FF9836E-60FD-4C2C-B389-010A4614EEF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5FF9836E-60FD-4C2C-B389-010A4614EEF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5FF9836E-60FD-4C2C-B389-010A4614EEF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5FF9836E-60FD-4C2C-B389-010A4614EEF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6937AEF7-6F0E-4CAE-9CF3-26F7E1074811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6937AEF7-6F0E-4CAE-9CF3-26F7E1074811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6937AEF7-6F0E-4CAE-9CF3-26F7E1074811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6937AEF7-6F0E-4CAE-9CF3-26F7E1074811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A883EF38-6B19-445F-BDBE-2ECE50D21D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A883EF38-6B19-445F-BDBE-2ECE50D21D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A883EF38-6B19-445F-BDBE-2ECE50D21D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A883EF38-6B19-445F-BDBE-2ECE50D21D91}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

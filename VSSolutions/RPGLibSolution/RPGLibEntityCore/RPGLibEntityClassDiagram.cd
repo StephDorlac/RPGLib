@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPGLibEntityCore.Entities.CharacterBase">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAAAEAAgAAEAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\CharacterBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.CharacterClass">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAggAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\CharacterClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.Species">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAQAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Characters\Species.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.CharacterRuleBase">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAgAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Characters\CharacterRuleBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.Ability">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Abilities\Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.AbilityRuleBase">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEgAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abilities\AbilityRuleBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.AbilityType">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abilities\AbilityType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.ItemBase">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Items\ItemBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.ItemType">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\ItemType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.QuestBase">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Quests\QuestBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.QuestType">
+    <Position X="2.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Quests\QuestType.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.SpellBase">
+    <Position X="4.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Spell\SpellBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.StatisticBase">
+    <Position X="9.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAABAgAAAAEAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Statistics\StatisticBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGLibEntityCore.Entities.DiceBase">
+    <Position X="11.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAggAgAAAAAAAQAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Tools\DiceBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RPGLibEntityCore.Entities.ISpellAction">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Spell\ISpellAction.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
