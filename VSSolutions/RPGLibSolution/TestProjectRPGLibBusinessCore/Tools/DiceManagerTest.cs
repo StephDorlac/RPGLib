@@ -11,8 +11,8 @@ namespace TestProjectRPGLibBusinessCore
         [TestMethod]
         public void Roll_With_Two_Dices()
         {
-            DiceBase diceOne = new DiceBase() { MinValue = 1, MaxValue = 20, Name = "DiceTest 1" };
-            DiceBase diceTwo = new DiceBase() { MinValue = 1, MaxValue = 20, Name = "DiceTest 2" };
+            DiceBase diceOne = new DiceBase() { MinValue = 1, MaxValue = 20 };
+            DiceBase diceTwo = new DiceBase() { MinValue = 1, MaxValue = 20 };
             List<DiceBase> dices = new List<DiceBase> { diceOne, diceTwo }; 
 
             DiceManager diceManager = new DiceManager(dices);

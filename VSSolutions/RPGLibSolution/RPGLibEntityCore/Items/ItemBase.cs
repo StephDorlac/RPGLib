@@ -9,18 +9,10 @@ namespace RPGLibEntityCore.Entities
     /// <summary>
     /// ItemBase entity define all specific items in world (ex: sword, legendary book, ...)
     /// </summary>
-    public class ItemBase
-    {
-        public int Id { get; set; }
+    public class ItemBase : IBaseEntity
+    {      
         public string Name { get; set; }    
-        public ItemType Type { get; set; }
-
-        public ItemBase(int id, string name, ItemType type)
-        {
-            Id = id;
-            Name = name;
-            Type = type;
-        }
-
+        public ItemTypeBase Type { get; set; }
+        public Guid Id { get; set; }
     }
 }
