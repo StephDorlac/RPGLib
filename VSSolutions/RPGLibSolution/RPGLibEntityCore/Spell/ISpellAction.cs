@@ -13,8 +13,7 @@ namespace RPGLibEntityCore.Entities
     /// and define characters and Itemps affected by ProcessAction
     /// </summary>
     public interface ISpellAction
-    {
-        public CommonResult ProcessAction();        
+    {       
         public List<CharacterBase> AffectedCharacters { get; set; }
         public List<ItemBase> AffectedItems { get; set; }  
     }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RPGLibEntityCore.Entities
+namespace RPGLibBusinessCore.Common
 {
     /// <summary>
     /// CommonResult provide a result used after each Core Operation
