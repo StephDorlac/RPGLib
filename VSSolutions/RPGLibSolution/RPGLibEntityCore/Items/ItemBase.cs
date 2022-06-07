@@ -14,5 +14,6 @@ namespace RPGLibEntityCore.Entities
         public string Name { get; set; }    
         public ItemTypeBase Type { get; set; }
         public Guid Id { get; set; }
+        public decimal Weigth { get; set; } 
     }
 }
