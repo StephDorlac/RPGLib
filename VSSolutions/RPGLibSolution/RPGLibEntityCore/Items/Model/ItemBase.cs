@@ -12,8 +12,8 @@ namespace RPGLibEntityCore.Entities
     public class ItemBase : IBaseEntity
     {      
         public string Name { get; set; }    
-        public ItemTypeBase Type { get; set; }
+        public Guid ItemTypeId { get; set; }
         public Guid Id { get; set; }
-        public decimal Weigth { get; set; } 
+        public float Weigth { get; set; } 
     }
 }
