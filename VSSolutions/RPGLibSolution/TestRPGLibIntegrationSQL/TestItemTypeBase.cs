@@ -52,9 +52,9 @@ namespace TestRPGLibIntegrationSQL
             Assert.IsTrue(expectedAddedThree.ResultStatus == RPGLibBusinessCore.Common.CommonResult.ResultStatusAction.Success);
 
             //List
-            var expectedList = impl.GetAllAsync();
+            var expectedList = await impl.GetAllAsync();
             Assert.IsNotNull(expectedList);
-            Assert.IsTrue(expectedList.Result.Count == 3);
+            Assert.IsTrue(expectedList.Count>0);
 
             //Remove
             var expectedRemovedOne = await impl.DeleteAsync(itemTypeOne);
